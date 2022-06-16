@@ -1,7 +1,7 @@
 # AssignmentSolution
 
 ***
-I am halfway there.. I will be definitely be able to  complete entire part within 3 days by Saturday noon. The progress so far:_
+I am halfway there.. I will be definitely be able to  complete entire part within 3 days by Saturday noon. The progress so far:-
 1) implemented routing for your, blocked and all tabs using react router dom v6
 2) used css flexbox for aligning the items inside card
 3) used css grid for the layout of cards in page for two columns per row layout
