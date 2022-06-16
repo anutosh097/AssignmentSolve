@@ -14,6 +14,7 @@ I am halfway there.. I will be definitely be able to  complete entire part withi
 10) 10) I am using react router v6 package to get the query parameter value for the your tab 
 11) By passing specific query parameter keys like owner_id specific values of owners can be obtained like given in screenshot which will help in the your tab
 12) So the filter part is remaining and the infinite scroll pagination is remaining on which I will be working and completing within time
+
 I am sharing some screenshots related to development process that I had taken.Hoping to complete this by Saturday noon.
 ***
 
