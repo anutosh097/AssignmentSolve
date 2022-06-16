@@ -8,18 +8,14 @@ export const Your = () => {
     console.log(getOwnerID)
     const [yourData,setYourData] = useState([])
     useEffect(()=>{
-        // setOwnerID(getOwnerID)
-        // console.log(ownerID)
         fetch(`http://localhost:3000/data?owner_id=${getOwnerID}`)
         .then(res => res.json())
         .then(data => setYourData(data))
     },[])
-    // console.log(yourData[0].name)
 
   return (
     <>
     <div>{getOwnerID}</div>
-    {/* <div>{yourData[0].name}</div> */}
     </>
   )
 }
