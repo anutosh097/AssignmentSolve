@@ -56,7 +56,7 @@ Enjoy!! Ideally you can split the terminal into three and have three open simult
 ***
 
 
-
+![Screenshot (175)](https://user-images.githubusercontent.com/81863474/174139833-4e83af74-2ecd-4918-b0aa-ecb4d07e68fc.png)
 ![Screenshot (167)](https://user-images.githubusercontent.com/81863474/174088162-a3cd4590-0744-4971-ae25-4e0b7548ab1e.png)
 ![Screenshot (168)](https://user-images.githubusercontent.com/81863474/174088174-8638ebac-a31a-4c73-a6f3-1a9b2c14b8bf.png)
 ![Screenshot (169)](https://user-images.githubusercontent.com/81863474/174088178-7bac251e-4655-47f9-a740-54f1d9a8aadb.png)
