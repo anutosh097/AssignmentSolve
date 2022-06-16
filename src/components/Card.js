@@ -117,7 +117,7 @@ export const Card = ({ each, index }) => {
                 </CardHeading>
                 <CardType className="card-type">
                     <div style={{ width: "120px", height: "20px", border: "1px solid black", borderRadius: "6px", padding: "5px 5px 5px 12px", color: "#888888" }}>{each.card_type.toUpperCase()}</div>
-                    <div>{`Expires: ${each.expiry}`}</div>
+                    <div>{isBurner ? (`Expires: ${each.expiry}`):(`August Limit: ${each.expiry}`)}</div>
                 </CardType>
                 <ProgressContainer>
                    <CardProgress></CardProgress>
