@@ -37,10 +37,12 @@ Make sure node is installed. Install all the packages and dependencies by runnin
 3) Open a terminal from your code editor or gitbash or command prompt and navigate to project directory. Run "json-server --watch db.json"
 ***
 > npm install -g json-server
+
 ***
 After ensuring all required data is added to db.json file under project directory, navigate to project directory and run "json-server --watch db.json". You can refer the db.json file under project directory for the json format.
 *** 
 >json-server --watch db.json
+
 ***
 Once this is done you can navigate to [http://localhost:3000/data](http://localhost:3000/data) on browser for seeing all data. You can also test this mock api url using postman using GET method to ensure all data is is coming properly as expected. You can use query parameters as well like "?owner_id=value" for getting specific data or use ids after the url like "http://localhost:3000/data/1" for getting specific data whenever needed as you will see is used in your tab.
 ***
