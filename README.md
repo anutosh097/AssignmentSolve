@@ -44,7 +44,7 @@ After ensuring all required data is added to db.json file under project director
 >json-server --watch db.json
 
 ***
-Once this is done you can navigate to [http://localhost:3000/data](http://localhost:3000/data) on browser for seeing all data. You can also test this mock api url using postman using GET method to ensure all data is is coming properly as expected. You can use query parameters as well like "?owner_id=value" for getting specific data or use ids after the url like "http://localhost:3000/data/1" for getting specific data whenever needed as you will see is used in your tab.
+Once this is done you can navigate to [http://localhost:3000/data](http://localhost:3000/data) on browser for seeing all data. You can also test this mock api url using postman using GET method to ensure all data is is coming properly as expected. You can use query parameters as well like "?owner_id=value" for getting specific data or use ids after the url like "http://localhost:3000/data?owner_id=1" for getting specific data whenever needed as you will see is used in your tab.
 ***
 
 
