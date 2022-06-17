@@ -14,7 +14,7 @@ export const Card = ({ each, index }) => {
     const Card = styled.div`
       width:600px;
       height: 300px;
-      box-shadow: 20px 20px 20px 3px #D8D8D8;
+      box-shadow: 0px 0px 20px 3px #D8D8D8;
       margin: 20px;
     `
     const CardHeading = styled.div`
