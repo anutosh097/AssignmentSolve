@@ -18,7 +18,7 @@ I am halfway there.. I will be definitely be able to  complete entire part withi
 I am sharing some screenshots related to development process that I had taken.Hoping to complete this by Saturday noon.
 ***
 
-## Commands to be run to run the app
+## Commands to follow to run the app
 
 ***
 Clone the repository
