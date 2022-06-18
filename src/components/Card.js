@@ -1,7 +1,4 @@
 import React from 'react'
-// import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import styled from 'styled-components';
 import { ImFire } from "react-icons/im"
 import { TiArrowSync } from "react-icons/ti"
@@ -39,7 +36,8 @@ export const Card = ({ each, index }) => {
     `
 
     const GreenDot = styled(Dot)`
-    margin-Top: 10px;
+    margin-top: 12px;
+    margin-right: 10px;
     height: 13px;
     width: 13px;
     background-color: #008000;
@@ -47,7 +45,8 @@ export const Card = ({ each, index }) => {
     `
 
     const RedDot = styled(Dot)`
-    margin-Top: 10px;
+    margin-top: 12px;
+    margin-right: 10px;
     height: 13px;
     width: 13px;
     background-color: #ff5349;
