@@ -19,7 +19,7 @@ export const Your = () => {
     console.log(yourData[0])
   return (
     <>
-      <Card each={yourData[0]}  />
+      return <Card each={yourData[0]}  />
     </>
   )
 }

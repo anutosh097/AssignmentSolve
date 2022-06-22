@@ -6,7 +6,7 @@ import { useInfiniteQuery } from 'react-query'
 import axios from 'axios';
 
 
-const getData = ({pageParam =0}) => {
+const getData = ({pageParam = 1}) => {
    return axios.get("http://localhost:3000/data", {
         params: {
             _page: pageParam,
