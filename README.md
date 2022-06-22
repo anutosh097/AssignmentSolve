@@ -1,7 +1,7 @@
 # AssignmentSolution
 
 ***
-I am halfway there.. I will be definitely be able to  complete entire part within 3 days by Saturday noon. The progress so far:-
+I am halfway there. The progress so far:-
 1) implemented routing for your, blocked and all tabs using react router dom v6
 2) used css flexbox for aligning the items inside card
 3) used css grid for the layout of cards in page for two columns per row layout
@@ -13,7 +13,8 @@ I am halfway there.. I will be definitely be able to  complete entire part withi
 9) used postman to test the mock api url to check if all data is coming
 10) I am using react router v6 package to get the query parameter value for the your tab 
 11) By passing specific query parameter keys like owner_id specific values of owners can be obtained like given in screenshot which will help in the your tab
-12) So the filter part is remaining and the infinite scroll pagination is remaining on which I will be working and completing within time
+12) The infinite scroll pagination is done using useInfiniteQuery from react-query package
+13) So the filter part is remaining now
 
 I am sharing some screenshots related to development process that I had taken.Hoping to complete this by Saturday noon.
 ***
