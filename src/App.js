@@ -14,7 +14,7 @@ import styled from "styled-components";
 function App() {
 
   const myID= 31;
-  const yourURL = `/your?owner_id=${myID}`
+  // const yourURL = `/your?owner_id=${myID}`
 
   const Navbar = styled.div`
     display: flex;
@@ -27,7 +27,7 @@ function App() {
       {/* <Header /> */}
       <Router>
         <Navbar>
-          <NavLink className={({isActive}) => isActive ? "active nav-item" : "nav-item"}  to={yourURL}>Your</NavLink>
+          <NavLink className={({isActive}) => isActive ? "active nav-item" : "nav-item"}  to="/your">Your</NavLink>
           <NavLink className={({isActive}) => isActive ? "active nav-item" : "nav-item"}  to="/all">All</NavLink>
           <NavLink className={({isActive}) => isActive ? "active nav-item" : "nav-item"}   to="/blocked">Blocked</NavLink>
         </Navbar>
