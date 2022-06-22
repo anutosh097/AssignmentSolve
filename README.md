@@ -57,8 +57,9 @@ Open another terminal for starting the react server while still running the json
 Enjoy!! Ideally you can split the terminal into three and have three open simultaneously, one for running json mock api server, one for react server, and another for installing packages or dependencies.
 ***
 
-***using useInfiniteQuery from react query in achieving infinite scroll pagination for fetching 10 datas per page***
+***using useInfiniteQuery from react query in achieving infinite scroll pagination for fetching 10 items per page***
 ![Screenshot (193)](https://user-images.githubusercontent.com/81863474/175096272-0210fbf5-2698-452e-8cde-8ab9d94bc582.png)
+***api calls for fetching 10 items per page as recorded in network tab of chrome deveoper tools***
 ![Screenshot (194)](https://user-images.githubusercontent.com/81863474/175096279-323863da-0bc9-40b8-a526-630bbd34f506.png)
 ![Screenshot (190)](https://user-images.githubusercontent.com/81863474/175096281-80af62ef-654c-4dcc-bc67-5aa2d3218e86.png)
 ![Screenshot (191)](https://user-images.githubusercontent.com/81863474/175096284-c2e4da2c-055f-4ce9-9820-ef0af68beb96.png)
