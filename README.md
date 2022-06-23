@@ -16,7 +16,7 @@ I am halfway there. The progress so far:-
 12) The infinite scroll pagination is done using useInfiniteQuery from react-query package
 13) So the filter part is remaining now
 
-I am sharing some screenshots related to development process that I had taken.Hoping to complete this by Saturday noon.
+I am sharing some screenshots related to development process that I had taken.
 ***
 
 ## Commands to follow to run the app
