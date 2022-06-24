@@ -6,7 +6,7 @@ import { Card } from './Card';
 
 
 const getYour = () => {
-  const myId = 31
+  const myId = 31 //give your own id here and try
   return axios.get(`http://localhost:3000/data?owner_id=${myId}`)
     .then(res => {
       return {
