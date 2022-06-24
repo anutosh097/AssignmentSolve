@@ -14,7 +14,8 @@ I am halfway there. The progress so far:-
 10) I am using react router v6 package to get the query parameter value for the your tab 
 11) By passing specific query parameter keys like owner_id specific values of owners can be obtained like given in screenshot which will help in the your tab
 12) The infinite scroll pagination is done using useInfiniteQuery from react-query package
-13) So the filter part is remaining now
+13) Added the your tab functionality
+14) So the filter part is remaining now
 
 I am sharing some screenshots related to development process that I had taken.
 ***
