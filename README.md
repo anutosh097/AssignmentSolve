@@ -59,9 +59,7 @@ Enjoy!! Ideally you can split the terminal into three and have three open simult
 ***
 
 
-***
-Added the your tab functionality
-***
+***Added the your tab functionality***
 
 ![Screenshot (202)](https://user-images.githubusercontent.com/81863474/175645315-b76bb75b-7da1-40d7-8a6f-0cc216020422.png)
 
