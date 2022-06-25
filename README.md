@@ -54,7 +54,9 @@ Open another terminal for starting the react server while still running the json
 ***
 >npm start
 
-***Enjoy!! Ideally you can split the terminal into three and have three open simultaneously, one for running json mock api server, one for react server, and another for installing packages or dependencies.***
+***
+Enjoy!! Ideally you can split the terminal into three and have three open simultaneously, one for running json mock api server, one for react server, and another for installing packages or dependencies.
+***
 
 
 
