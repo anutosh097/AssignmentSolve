@@ -1,7 +1,7 @@
 # AssignmentSolution (Subscription Tracker)
 
 ***
-I am halfway there. The progress so far:-
+The progress so far:-
 1) implemented routing for your, blocked and all tabs using react router dom v6
 2) used css flexbox for aligning the items inside card
 3) used css grid for the layout of cards in page for two columns per row layout
