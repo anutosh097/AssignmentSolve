@@ -136,7 +136,7 @@ export const Card = ({ each, index }) => {
                          <span style={{fontSize:"20px"}}>Available to spend</span>
                     </div>
                     <div style={{fontSize:"20px"}}>
-                        {`${each.available_to_spend.value} ${each.available_to_spend.currency}`}
+                        {`${1000 - each.spent.value} ${each.available_to_spend.currency}`}
                     </div>
                 </CardBalance>
             </Card>
