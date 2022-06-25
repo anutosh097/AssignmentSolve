@@ -1,4 +1,4 @@
-# AssignmentSolution
+# AssignmentSolution (Subscription Tracker)
 
 ***
 I am halfway there. The progress so far:-
@@ -11,11 +11,10 @@ I am halfway there. The progress so far:-
 7) using json-server package for creating the api url endpoint for all datas, used 31 different users for at least three pages so that I can account for infinite scroll paginatio for which I am planning to use react query
 8) Also the filter part is left for which I will use some state management most probably redux.
 9) used postman to test the mock api url to check if all data is coming
-10) I am using react router v6 package to get the query parameter value for the your tab 
-11) By passing specific query parameter keys like owner_id specific values of owners can be obtained like given in screenshot which will help in the your tab
-12) The infinite scroll pagination is done using useInfiniteQuery from react-query package
-13) Added the your tab functionality
-14) So the filter part is remaining now
+10) By passing specific query parameter keys like owner_id specific values of owners can be obtained like given in screenshot which will help in the your tab
+11) The infinite scroll pagination is done using useInfiniteQuery from react-query package
+12) Added the your tab functionality
+13) So the filter part is remaining now
 
 I am sharing some screenshots related to development process that I had taken.
 ***
