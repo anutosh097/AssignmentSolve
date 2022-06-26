@@ -51,7 +51,7 @@ border-radius: 13px;
      justify-content: flex-end;
   `
 
-    const Button = styled.button`
+    const FilterButton = styled.button`
     width: 150px;
     height: 50px;
     background-color: #F8F8F8;
@@ -63,20 +63,38 @@ border-radius: 13px;
     font-size: 18px;
   `
 
-  const FilterBoxWrapper = styled.div`
+    const FilterBoxWrapper = styled.div`
     display:flex;
     justify-content:flex-end;
     margin-right:80px;
     margin-top:10px;
   `
 
-  const FilterBox = styled.div`
-    height: 500px;
+    const FilterBox = styled.div`
+    height: 400px;
     width: 500px; 
     border-radius: 5px;
     border: 1px solid #989898;
     background-color: #FFF;
     position: absolute;
+  `
+
+  const Button = styled.button`
+    width: 150px;
+    height: 38px;
+    border-radius: 5px;
+    border: none;
+  `
+
+  const ApplyButton = styled(Button)`
+    background-color: #ff5349;
+    color: #FFF;
+  `
+
+  const ClearButton = styled(Button)`
+    background-color: #FFF;
+    color: #000;
+    box-shadow: 0px 0px 20px 3px #D8D8D8;
   `
 
 
@@ -86,14 +104,47 @@ border-radius: 13px;
                 (
                     <>
                         <ButtonWrapper>
-                            <Button onClick={() => setIsShowFilter(!isShowFilter)}> <span><IoFilterSharp /></span> Filter</Button>
+                            <FilterButton onClick={() => setIsShowFilter(!isShowFilter)}> <span><IoFilterSharp /></span> Filter</FilterButton>
                         </ButtonWrapper>
                         {isShowFilter ? (
                             <FilterBoxWrapper>
-                                <FilterBox></FilterBox>
+                                <FilterBox>
+                                    <div style={{ margin: "10px" }}>Filters</div>
+                                    <hr />
+                                    <form action="">
+                                        <div style={{ marginLeft: "80px", marginBottom: "20px", color: "#989898" }}>Type</div>
+                                        <div style={{ display: "flex", justifyContent: "space-around", marginBottom: "20px" }}>
+                                            <div>
+                                                <input type="checkbox" id="subscription" name="subscription" value="subscription" />
+                                                <label style={{ fontWeight: "bold" }} for="subscription">Subscription</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" id="burner" name="burner" value="burner" />
+                                                <label style={{ fontWeight: "bold" }} for="burner">Burner</label>
+                                            </div>
+                                        </div>
+                                        <div style={{ marginLeft: "80px", marginBottom: "20px", color: "#989898" }}>Cardholder</div>
+                                        <div style={{ display: "flex", justifyContent: "space-around" }}>
+                                            <div>
+                                                <select name="cardholder" id="cardholder" style={{width: "300px",height: "50px",backgroundColor:"#F8F8F8",color: "#989898"}}>
+                                                    {
+
+                                                    }
+                                                    <option value="select cardholder">Select Cardholder</option>
+                                                    <option value="volvo">Volvo</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div style={{display:"flex",justifyContent:"space-around",marginTop:"20px"}}>
+                                           <ApplyButton>Apply</ApplyButton>
+                                           <ClearButton>Clear</ClearButton>
+
+                                        </div>
+                                    </form>
+                                </FilterBox>
                             </FilterBoxWrapper>
                         ) : null}
-                        <h3>{dataQuery.isFetching ? <small>......</small> : null}</h3>
+                        <h3>{dataQuery.isFetching ? <small>......</small> : null}</h3>   
                         <Wrapper>
                             {dataQuery.data.pages.map((page, index) => {
                                 return <Fragment key={index}>
