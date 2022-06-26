@@ -57,7 +57,7 @@ export const Card = ({ each, index }) => {
 
     const IconWrapper = styled.div`
     padding: 35px;
-    width: 25px;
+    width: ${isBurner ? "10px" : "25px"};
     height: 25px;
     border-radius: 50%;
     background-color: #FFFAFA;
