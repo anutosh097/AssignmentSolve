@@ -60,6 +60,9 @@ Enjoy!! Ideally you can split the terminal into three and have three open simult
 
 
 
+***Added the filter button and filter box and it's contents***
+![Screenshot (218)](https://user-images.githubusercontent.com/81863474/175823054-c2b1d22e-ceb4-4886-969f-4e8b662ccc68.png)
+
 ***Fixed available to spent amount***
 ![Screenshot (203)](https://user-images.githubusercontent.com/81863474/175758812-ae4460db-cdd7-46f9-96f1-44c7e8699de4.png)
 
