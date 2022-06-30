@@ -59,6 +59,7 @@ Enjoy!! Ideally you can split the terminal into three and have three open simult
 ***
 
 
+#Time lapse of the development process in screenshots 
 
 ***Added the filter button and filter box and it's contents***
 ![Screenshot (218)](https://user-images.githubusercontent.com/81863474/175823054-c2b1d22e-ceb4-4886-969f-4e8b662ccc68.png)
